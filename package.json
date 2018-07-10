@@ -1,0 +1,68 @@
+{
+    "name": "px2vw",
+    "displayName": "px2vw",
+    "description": " vw, pxtovw, px2vw",
+    "keywords": [
+        "vw",
+        "px vw",
+        "px to vw",
+        "px2vw"
+    ],
+    "version": "1.0.0",
+    "publisher": "px2vw",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onLanguage:html",
+        "onLanguage:css",
+        "onLanguage:less",
+        "onLanguage:scss",
+        "onLanguage:sass",
+        "onLanguage:stylus"
+    ],
+    "main": "./out/extension",
+    "contributes": {
+        "commands": [{
+            "command": "extension.px2vw",
+            "title": "px2vw"
+        }],
+        "keybindings": [{
+            "command": "extension.px2vw",
+            "key": "ctrl+p ctrl+v"
+        }],
+        "configuration": {
+            "type": "object",
+            "title": "px2vw configure",
+            "properties": {
+                "px2vw.width": {
+                    "type": "number",
+                    "default": 750,
+                    "description": "design width"
+                },
+                "px2vw.toFixedNum": {
+                    "type": "number",
+                    "default": 4,
+                    "description": "px2vw 保留小数长度"
+                }
+            }
+        }
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "tslint": "^5.8.0",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    }
+}
