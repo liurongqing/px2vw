@@ -11,7 +11,7 @@
     ext install px2vw
     ```
 
-2. 直接在 vscode 编辑上插件上查找安装
+2. 直接在 vscode 编辑上插件上查找安装 `px2vw`
 3. [下载 vsix 直接拖拉安装](px2vw-1.1.0.vsix)
 
 
