@@ -1,7 +1,5 @@
-# Change Log
-All notable changes to the "px2vw" extension will be documented in this file.
+## px2vw 1.4 Release
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-- Initial release
+- 命令行全部 px 转换成 vw
+- 单行提示转换成 vw
+- px2vw.width 宽度默认：750，可根据设计稿自己通过 `cmd + ,` 搜索 `px2vw.width` 进行更改
