@@ -30,5 +30,5 @@
 
 ## 配置
 
-- px2rem.width 设计宽度
-- px2rem.toFixedNum 保留小数
+- `px2vw.width` 设计宽度
+- `px2vw.toFixedNum` 保留小数
