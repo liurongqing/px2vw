@@ -18,7 +18,7 @@
 
 2. 直接在 vscode 编辑上插件上查找安装 `px2vw`
 
-3. [下载 vsix](https://marketplace.visualstudio.com/items?itemName=px2vw.px2vw) 
+3. [下载 vsix](https://marketplace.visualstudio.com/items?itemName=liurongqing.px2vw) 
 
     > 打开vscode，拓展，点击三个小点，“从VSIX安装”，即可。成功后重启软件。
 
