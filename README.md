@@ -2,9 +2,12 @@
 
 一个 px 单位转成 vw 单位的 VSCode 插件
 
+![https://img.shields.io/badge/vscode-1.25.0-brightgreen.svg](https://img.shields.io/badge/vscode-1.25.0-brightgreen.svg) ![https://img.shields.io/badge/typescript-passing-blue.svg](https://img.shields.io/badge/typescript-passing-blue.svg)
+
 ![演示图](screenshots/px2vw.gif)
 
 ## 安装
+
 1. 通过命令行安装
 
     ```shell
@@ -12,7 +15,10 @@
     ```
 
 2. 直接在 vscode 编辑上插件上查找安装 `px2vw`
-3. [下载 vsix 直接拖拉安装](px2vw-1.1.0.vsix)
+
+3. [下载 vsix](https://marketplace.visualstudio.com/search?term=px2vw&target=VSCode&category=Other&sortBy=Relevance) 
+
+    > 打开vscode，拓展，点击三个小点，“从VSIX安装”，即可。成功后重启软件。
 
 
 ## 使用
