@@ -1,3 +1,7 @@
+## px2vw 1.5.3 Release
+
+- 支持 vue 文件提示
+
 ## px2vw 1.4 Release
 
 - 命令行全部 px 转换成 vw

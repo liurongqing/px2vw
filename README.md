@@ -31,6 +31,7 @@
 ## 支持语言
 
 - html
+- vue
 - css
 - less
 - sass

@@ -8,7 +8,7 @@
         "px to vw",
         "px2vw"
     ],
-    "version": "1.4.3",
+    "version": "1.5.3",
     "icon": "icon.png",
     "license": "MIT",
     "licenseUrl": "LICENSE",
@@ -26,6 +26,7 @@
     ],
     "activationEvents": [
         "onLanguage:html",
+        "onLanguage:vue",
         "onLanguage:css",
         "onLanguage:less",
         "onLanguage:scss",
@@ -34,10 +35,12 @@
     ],
     "main": "./out/extension",
     "contributes": {
-        "commands": [{
-            "command": "extension.px2vw",
-            "title": "px2vw"
-        }],
+        "commands": [
+            {
+                "command": "extension.px2vw",
+                "title": "px2vw"
+            }
+        ],
         "configuration": {
             "type": "object",
             "title": "px2vw configure",

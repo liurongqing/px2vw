@@ -7,7 +7,7 @@ export function activate(context: vscode.ExtensionContext) {
     let config = vscode.workspace.getConfiguration('px2vw');
     const Process = new process(config);
     const Provider = new provider(Process);
-    const LANS = ['html', 'css', 'less', 'scss', 'sass', 'stylus'];
+    const LANS = ['html','vue', 'css', 'less', 'scss', 'sass', 'stylus'];
 
     for (let lan of LANS) {
         let providerDisposable = vscode.languages.registerCompletionItemProvider(lan, Provider);
