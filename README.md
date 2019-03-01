@@ -2,7 +2,7 @@
 
 ## px2vw
 
-一个 px 单位转成 vw 单位的 VSCode 插件
+一个 px 单位转成 vw 单位的 VSCode 插件.
 
 
 
